@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/pshop.css">
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo"> <i class="fa-solid fa-shop"></i> Pshop </a>
+    <nav class="navbar">
+        <a href="#home">Pshop</a>
+        <a href="#products">Mặt Hàng</a>
+        <a href="#categories">Thể loại</a>
+        <a href="#review">Bình Luận</a>
+        <a href="#blogs">Bài viết</a>
+        <a href="welcome.html">Về Trang chủ</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="./picture/rolex1.jpg" alt="">
+            <div class="content">
+                <h3>Rolex</h3>
+                <span class="price">109.982.000 vnd </span>
+                <span class="quantity">Số Lượng : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="./picture/macbook.jpg" alt="">
+            <div class="content">
+                <h3>macbook</h3>
+                <span class="price">25.200.000 vnd </span>
+                <span class="quantity">Số Lượng : 2</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="./picture/galaxy-s10e.jpg" alt="">
+            <div class="content">
+                <h3>galaxy s10e</h3>
+                <span class="price">9.920.000 vnd </span>
+                <span class="quantity">Số Lượng : 3</span>
+            </div>
+        </div>
+        <div class="total"> Tổng : 198.292.000 vnd </div>
+        <a href="#" class="btn">Thanh Toán </a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Đăng Nhập </h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="Mật Khẩu" class="box">
+        <p>Quên mật khẩu <a href="./singin-singout.html">click tại đây </a></p>
+        <p>bạn chưa có tài khoản <a href="./singin-singout.html">tạo nhanh</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Hàng <span>Chính Hãng</span> Chất Lượng tốt</h3>
+        <p>Cam kết hàng chất lượng giá rẻ uy tín đến với người tiêu dùng.</p>
+        <a href="#" class="btn">Mua Ngay</a>
+    </div>
+
+</section>
+
+
+<section class="features" id="features">
+
+    <h1 class="heading"> Chúng tôi <span>Cam Kết</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/feature-img-1.png" alt="">
+            <h3>Hàng Chính Hãng</h3>
+            <p>Nhằm đem lại các sản phẩm chất lượng cao đến với mọi nhà</p>
+            <a href="#" class="btn">Đọc nữa</a>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-2.png" alt="">
+            <h3>Uy tín</h3>
+            <p>Chữ tín quý hơn vàng</p>
+            <a href="#" class="btn">Đọc nữa</a>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-3.png" alt="">
+            <h3>Chất Lượng Tốt</h3>
+            <p>Cam kết chất lượng tốt bảo hành lâu</p>
+            <a href="#" class="btn">Đọc nữa</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Các <span>Mặt Hàng</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="./picture/galaxy-s10.jpg" alt="">
+                <h3>galaxy s10</h3>
+                <div class="price"> 7.829.000 vnd </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ hàng </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./picture/galaxy-s10e.jpg" alt="">
+                <h3>galaxy s10e</h3>
+                <div class="price"> 3.982.000 vnd </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./picture/iphone-11.jpg" alt="">
+                <h3>iphone 11</h3>
+                <div class="price"> 26.982.000 vnd </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./picture/iphone-13promax.jpg" alt="">
+                <h3>iphone 13promax</h3>
+                <div class="price"> 35.097.000 vnd </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="./picture/rolex1.jpg" alt="">
+                <h3>Rolex </h3>
+                <div class="price"> 402.932.000 vnd </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./picture/rolex2.jpg" alt="">
+                <h3>Rolex </h3>
+                <div class="price"> 109.232.000 vnd </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./picture/macbook.jpg" alt="">
+                <h3>Macbook</h3>
+                <div class="price"> 52.320.000 vnd </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./picture/macbook2.jpg" alt="">
+                <h3>MacBook 13pro </h3>
+                <div class="price"> 23.990.000 vnd </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> product <span>categories</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./picture/Samsung-.png" alt="">
+            <h3>Samsung</h3>
+            <p>sale đến 45% </p>
+            <a href="#" class="btn">Mua Ngay</a>
+        </div>
+
+        <div class="box">
+            <img src="./picture/iphone.jpg" alt="">
+            <h3>Iphone </h3>
+            <p>giảm sốc còn 70%</p>
+            <a href="#" class="btn">Mua Ngay</a>
+        </div>
+
+        <div class="box">
+            <img src="./picture/macbook3.jpg" alt="">
+            <h3>Macbook</h3>
+            <p>Khuyến mãi đến 30% </p>
+            <a href="#" class="btn">Mua Ngay</a>
+        </div>
+
+        <div class="box">
+            <img src="./picture/rolex3.jpg" alt="">
+            <h3>Đồng hồ Rolex</h3>
+            <p>giá chỉ còn 40%</p>
+            <a href="#" class="btn">Mua Ngay</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="review" id="review">
+
+    <h1 class="heading"> <span>Bình Luận </span>của khách hàng </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="./picture/user.jpg" alt="">
+                <p>Đồng hồ ở đây rất đẹp. giá cả phù hợp uy tín. </p>
+                <h3>Khách hàng </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./picture/user.jpg" alt="">
+                <p>Máy tính ở đây chất lượng mẫu mã như hình</p>
+                <h3>Khách hàng </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./picture/user.jpg" alt="">
+                <p>Điện thoại mượt khuyến mãi nhiều. Luôn ủng hộ Shop </p>
+                <h3>Khách hàng </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./picture/user.jpg" alt="">
+                <p>Mẫu mã đa dạng nhiều màu sắc . Nhân viên phục vụ tốt . </p>
+                <h3>Khách hàng </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading">  <span>Bài viết </span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./picture/macbook4.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Người bán </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 03/06/2022 </a>
+                </div>
+                <h3>Macbook</h3>
+                <p>Chuẩn bị ra mẫu mã mới giá tiền phù hợp với học sinh sinh viên . </p>
+                <a href="#" class="btn">Đọc thêm</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./picture/iphone14" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Người bán </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 03/06/2022 </a>
+                </div>
+                <h3>Điện thoại </h3>
+                <p>Nhằm đáp ứng nhu cầu của người dùng chúng tôi cho ra thêm chiếc điện thoại 14 promax </p>
+                <a href="#" class="btn">Đọc thêm</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./picture/rolex4.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Người bán </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 03/06/2022 </a>
+                </div>
+                <h3>Đồng hồ của Hãng Rolex </h3>
+                <p>Đem lại cảm giác thân thiện với màu xanh biển </p>
+                <a href="#" class="btn">Đọc thêm</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Pshop <i class="fa-solid fa-shop"></i> </h3>
+            <p>Cám ơn các bạn đã tin tưởng và ủng hộ. Xin chân thành cám ơn. </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Liên lạc </h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +849-999-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +843-232-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> 21T1020603@husc.edu.vn </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Huế, Việt Nam </a>
+        </div>
+
+        <div class="box">
+            <h3>Đường tắt </h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Pshop </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Mặt Hàng </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Thể Loại </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Bình Luận </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Bài Viết </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Về Trang Chủ </a>
+        </div>
+
+        
+    </div>
+
+   
+</section>
+</body>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="./js/pshop.js"></script>
+</html>
